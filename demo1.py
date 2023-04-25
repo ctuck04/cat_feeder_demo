@@ -2,6 +2,7 @@ import datetime
 import time
 
 def schedule_feeding():
+    print("Press 2 to try our feeder app in Birthday Mode!")
     feeding_time = input("Please enter the feeding time in HH:MM format (24-hour clock): ")
     prev_input = ''
     while True:
